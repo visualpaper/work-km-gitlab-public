@@ -62,6 +62,13 @@ sudo EXTERNAL_URL="http://13.231.111.37" yum install -y gitlab-ce
 ※ 年次で毎月 5 月に更新されるらしい (https://qiita.com/Hachiyou-Renge/items/6479a003950481ec70de) ので、
    その場合は上記のようにバージョン指定して更新すれば OK
 
+↑までで起動
+
+sudo cat /etc/gitlab/initial_root_password
+※ 初期パスワードがあるので、root ユーザでログイン
+
+<br><br>
+
 https 化する場合以下の手順で実施可能なはず。
 
 https://docs.gitlab.com/omnibus/settings/ssl/index.html#configure-https-manually
